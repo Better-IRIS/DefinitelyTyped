@@ -16,7 +16,7 @@ export interface MarkerPropsPixiOverlay {
     customIcon?: string;
     iconId?: string;
     markerSpriteAnchor?: [number, number];
-    angle: number;
+    angle?: number;
 }
 
 export interface MarkersPropsPixiOverlay extends Array<MarkerPropsPixiOverlay> {}
