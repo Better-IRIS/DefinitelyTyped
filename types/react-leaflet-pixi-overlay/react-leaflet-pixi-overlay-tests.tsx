@@ -20,6 +20,7 @@ class PixiOverlayTest extends React.Component {
             popupOpen: true,
             onClick: () => console.log('clicked'),
             tooltip: 'Nice!',
+            angle: 90
         },
     ];
     render() {
